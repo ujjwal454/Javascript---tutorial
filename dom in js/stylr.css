@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Libre+Franklin:wght@300;600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@500;600;700&display=swap');
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.header{
+    min-height: 80vh;
+    background:url(./bg.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.header a{
+     text-decoration: none;
+     color: #fff;
+}
+.header ul li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menue-items {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul li{
+    margin-left: 20px;
+}
+.headline{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.headline .btn{
+    margin-top: 20px;
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color:rgba(128, 0, 128, 0.178);
+    border:none;
+    color: white;
+}
+.addtodo{
+    margin-top: 2rem;
+    text-align:center;
+}
+.form-todo{
+    /* border: 2px solid red; */
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: auto;
+    /* min-width: 1200px;
+    width: 80px; */
+    margin-top: 10px;
+}
+
+.form-todo input[type = "text"]{
+    width:78%;
+}
+.form-todo input[type = "submit"]{
+    width: 20%;
+    background-color:rgba(128, 0, 128, 0.603);
+    color: white;
+    font-weight: bold;
+}
+section.signup{
+    margin-top: 5rem;
+    background: rgb(216, 212, 212);
+    border-radius: 10px;
+    text-align: center;
+}
+.signup-form{
+    max-width: 800px;
+    width: 95%;
+}
+section.signup .signup-form label{
+    display: block;
+}
+section.signup .signup-form input{
+    display: block;
+    width: 100%;
+    margin-left: 15px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.btn-submit{
+    padding: 1rem 2rem;
+    margin: 1rem;
+    
+}
+.bg-dark{
+    background-color:#000;
+}
+section.addtodo ul li{
+    list-style: none;
+    text-align: left;
+    padding:4px;
+    background-color: #444;
+    margin-top: 0.5rem;
+    color: cyan;
+    margin-left: 1rem;
+}
